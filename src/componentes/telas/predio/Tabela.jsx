@@ -40,9 +40,6 @@ function Tabela() {
                         {listaObjetos.map(objeto => (
                             <tr key={objeto.codigo}>
                                 <td align="center">
-                                    <button className="btn btn-info">
-                                        <i className="bi bi-pencil-square"></i>
-                                    </button>
                                     <button className="btn btn-danger" title="Remover"
                                         onClick={() => { remover(objeto); }}>
                                         <i className="bi bi-trash"></i>
